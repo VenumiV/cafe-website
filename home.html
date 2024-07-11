@@ -67,8 +67,8 @@
                 <div class="menu">
                   <img src="images/cappucino.jpg" class="menu-img-top"/>
                   <div class="menu-body">
-                    <h2 class="menu-title" onclick="viewMore()">Cappucino</h2>
-                    <p id="menu3" class="menu-text"> </p>
+                    <h3 id="menu1" class="menu-title" onclick="viewMore('menu1')">Cappucino</h3>
+                    <p id="menu1-desc" class="menu-text">The perfect balance of espresso, steamed milk and foam. </p>
                   </div>
                 </div>
               </div>
@@ -77,8 +77,8 @@
                 <div class="menu">
                   <img src="images/espresso.jpg" class="menu-img-top"/>
                   <div class="menu-body">
-                    <h2 class="menu-title">Espresso</h2>
-                    <p class="menu-text"> Extreme coffeee/p>
+                    <h3 class="menu-title" onclick="viewMore('menu2')">Espresso</h3>
+                    <p id="menu2-desc" class="menu-text">A concentrated form of coffee served in small, strong shots</p>
                   </div>
                 </div>
               </div>
@@ -87,8 +87,8 @@
                 <div class="menu">
                   <img src="images/caramal latte.jpg" class="menu-img-top"/>
                   <div class="menu-body">
-                    <h2 class="menu-title">Caramel latte</h2>
-                    <p class="menu-text"> Extreme coffeee/p>
+                    <h3 id="menu3" class="menu-title" onclick="viewMore('menu3')">Caramel latte</h3>
+                    <p id="menu3-desc" class="menu-text">Made with caramel syrup, espresso shots, milk, and ice </p>
                   </div>
                 </div>
               </div>
@@ -97,8 +97,8 @@
                 <div class="menu">
                   <img src="images/hot chocolate.jpg" class="menu-img-top"/>
                   <div class="menu-body">
-                    <h2 class="menu-title">Hot chocolate</h2>
-                    <p class="menu-text"> Extreme coffeee/p>
+                    <h3 id="menu4" class="menu-title" onclick="viewMore('menu4')">Hot chocolate</h3>
+                    <p id="menu4-desc" class="menu-text">Made with dark, semisweet, or bittersweet chocolate chopped into small pieces stirred into milk with the addition of sugar.</p>
                   </div>
                 </div>
               </div>
@@ -111,7 +111,7 @@
 
       <div class="row">
         <div class="col-12 ">
-          <h2>Sweeten every moment with our bakery delight!</h2>
+          <h2 id="mid-title">Sweeten every moment with our bakery delight!</h2>
         </div>
    
       </div>
@@ -120,8 +120,8 @@
             <div class="menu">
               <img src="images/garlic bun.jpg" class="menu-img-top"/>
               <div class="menu-body">
-                <h2 class="menu-title">Garlic bun</h2>
-                <p class="menu-text"> Extreme coffeee/p>
+                <h3 id="menu5" class="menu-title" onclick="viewMore('menu5')">Garlic bun</h3>
+                <p id="menu5-desc" class="menu-text"> A soft, fluffy bread roll generously stuffed with a luscious cream cheese filling and dipped in a savory garlic butter spread.</p>
               </div>
             </div>
           </div>
@@ -130,8 +130,8 @@
             <div class="menu">
               <img src="images/ham and cheese sandwitch.jpg" class="menu-img-top"/>
               <div class="menu-body">
-                <h2 class="menu-title">Ham & cheese sandwitch</h2>
-                <p class="menu-text"> Extreme coffeee/p>
+                <h3 id="menu6" class="menu-title" onclick="viewMore('menu6')">Ham & cheese sandwitch</h3>
+                <p id="menu6-desc" class="menu-text"> Perfect mouthful of sweet and salty taste of ham layered with a mild, tasty cheese and stacked with fresh crisp slices of cucumber, all in a slice of bread</p>
               </div>
             </div>
           </div>
@@ -140,8 +140,8 @@
             <div class="menu">
               <img src="images/bagels.jpg" class="menu-img-top"/>
               <div class="menu-body">
-                <h2 class="menu-title">Salmon and kotchchi bagel</h2>
-                <p class="menu-text"> Extreme coffeee/p>
+                <h3 id="menu7" class="menu-title" onclick="viewMore('menu7')">Salmon and kochchi bagel</h3>
+                <p id="menu7-desc" class="menu-text"> bagels with smoked salmon, sliced tomatoes, sliced cucumbers, sliced red onion, capers, and chives with a topping of our unique kotchchi sauce</p>
               </div>
             </div>
           </div>
@@ -150,8 +150,8 @@
             <div class="menu">
               <img src="images/bacon muffin.jpg" class="menu-img-top"/>
               <div class="menu-body">
-                <h2 class="menu-title">Bacon and cheese muffin</h2>
-                <p class="menu-text"> Extreme coffeee/p>
+                <h3 id="menu8" class="menu-title" onclick="viewMore('menu8')">Bacon and cheese muffin</h3>
+                <p id="menu8-desc" class="menu-text"> Muffins are filled with smoky, crisp bacon, shredded sharp cheddar cheese, fresh herbs, and shredded potatoes</p>
               </div>
             </div>
           </div>
@@ -164,8 +164,8 @@
         <div class="menu">
           <img src="images/rolls.jpg" class="menu-img-top"/>
           <div class="menu-body">
-            <h2 class="menu-title">Chocolate espresso rolls<span class="badge bg-primary">New</span></h2>
-            <p class="menu-text"> Extreme coffeee/p>
+            <h3 id="menu9" class="menu-title" onclick="viewMore('menu9')">Chocolate espresso rolls<span class="badge bg-primary">New</span></h3>
+            <p id="menu9-desc" class="menu-text">Unbelievably pillowy, moist bread filled with a decadent dark chocolate espresso filling and covered in espresso icing.</p>
           </div>
         </div>
       </div>
@@ -174,8 +174,8 @@
         <div class="menu">
           <img src="images/waffles.jpg" class="menu-img-top"/>
           <div class="menu-body">
-            <h2 class="menu-title">Waffles</h2>
-            <p class="menu-text"> Extreme coffeee/p>
+            <h3 id="menu10" class="menu-title" onclick="viewMore('menu10')">Waffles</h3>
+            <p id="menu10-desc" class="menu-text"> Crispy exterior and a tender, moist and fluffy interior.Served with topping of strwaberries and whipping cream </p>
           </div>
         </div>
       </div>
@@ -184,8 +184,8 @@
         <div class="menu">
           <img src="images/brownie.jpg" class="menu-img-top"/>
           <div class="menu-body">
-            <h2 class="menu-title">Brownie with ice cream</h2>
-            <p class="menu-text"> Extreme coffeee/p>
+            <h3 id="menu11" class="menu-title" onclick="viewMore('menu11')">Brownie with ice cream</h3>
+            <p id="menu11-desc" class="menu-text"> Warm and fudgy with premium vanilla ice-cream melting on top, this nutty brownie is chocolate heaven.</p>
           </div>
         </div>
       </div>
@@ -194,8 +194,8 @@
         <div class="menu">
           <img src="images/blueberry chessecake.jpg" class="menu-img-top"/>
           <div class="menu-body">
-            <h2 class="menu-title">Bluberry cheesecake</h2>
-            <p class="menu-text"> Extreme coffeee/p>
+            <h3 id="menu12" class="menu-title" onclick="viewMore('menu12')">Bluberry cheesecake</h3>
+            <p id="menu12-desc" class="menu-text"> Incredible blueberry cheesecake with a blueberry sauce topping.</p>
           </div>
         </div>
       </div>
@@ -218,13 +218,17 @@
             </div>
             <div class="col-12 col-lg-6" id="aboutus">
                <h2>About us</h2>
-               <p>At Little Lilly's Coffee, we know your coffee ritual is important.  Whether you’re beginning your day or spending time with friends and family, you want quality coffee. 
-                We select the highest quality coffee and carefully origin roast our beans to elevate every day moments to experiences, because for coffee lovers – experience matters.</p>
-               <p>If you’re looking for a great cup of coffee, you can’t go wrong with Little lilly Coffee Shop.
-                 We have a wide selection of coffees to choose from, and they’re all made with high-quality coffee beans. The coffee is known for being fresh, and the coffee shop website even lets you order ahead and grab your cup of Joe on the run.</p>
+              
                  <p>
-                  We are hoping to extend the our cafe around the country for you to have an amazing experience.
+                  Little Lilly is a startup which was created to cater to the true authentic coffee shop experience, by emphasizing on the high-quality coffee, which we have not compromised whatever the situation we faced.
+                   The true reason for the success of Little lilly is its work force, some employees being a part of the Lilly team since its inception, we at here appreciate all employees starting from the security.
+                        With our humble beginnings at Little Lilly Homagama, throughout these five years Little Lilly has grown strength to strength and We are hoping to extend the our cafe around the country for you to have an amazing experience.
                  </p>
+                 <p>At Little Lilly's Coffee, we know your coffee ritual is important.  Whether you’re beginning your day or spending time with friends and family, you want quality coffee. 
+                  We select the highest quality coffee and carefully origin roast our beans to elevate every day moments to experiences, because for coffee lovers – experience matters.</p>
+                 <p>If you’re looking for a great cup of coffee, you can’t go wrong with Little lilly Coffee Shop.
+                   We have a wide selection of coffees to choose from, and they’re all made with high-quality coffee beans. 
+                   The coffee is known for being fresh, and the coffee shop website even lets you order ahead and grab your cup of Joe on the run.</p>
             </div>
         </div>
         
