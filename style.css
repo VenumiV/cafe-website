@@ -17,7 +17,7 @@ h3{
   text-align: center;
   justify-content: center;
   font-family: Serif ;
-  color: rgb(85, 23, 23);
+  color: antiquewhite;
   
   
 }
@@ -106,7 +106,7 @@ h4{
     color: rgb(98, 29, 29);
     font-family: Kaushan Script;
 }
-#aboutus{
+#about-us{
     background-color: antiquewhite;
     font-size: 17px;
 }
@@ -125,6 +125,7 @@ label{
     box-shadow:  rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 5px;
     background-color:rgb(171, 115, 71);
+    align-items: center;
 }
 .menu-img-top {
     width: 100%;
@@ -145,6 +146,15 @@ label{
   padding: 10px;
   margin: 5px;
  
+}
+.menu-description{
+  height: 100px;
+}
+
+#about,#about-us{
+  margin-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #footer-leftside{
